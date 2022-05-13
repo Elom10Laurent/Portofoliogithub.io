@@ -27,8 +27,15 @@ body
     font-weight: bold;
     text-align: justify;
 }
+h3{
+    margin: 0px;
+    color: #3A90DB;
+}
 h4{
     font-size: 2em;
+}
+.Ma-col{
+    font-size: 1.5rem;
 }
 
  header
@@ -64,14 +71,14 @@ h4{
  
 
 }
-@keyframes example {
+/*@keyframes example {
     0% {background-color:red; left:0px; top:0px;}
     25%  {background-color:yellow; left:0px; top:0px;}
     50%  {background-color:blue; left:0px; top:0px;}
     75%  {background-color:green; left:0px; top:0px;}
     75%  {background-color:green; left:0px; top:0px;}
-    100% {background-color:red; left:0px; top:0px;}*/
-  }
+    100% {background-color:red; left:0px; top:0px;}
+  }*/
 /*
 width: 100px;
   height: 100px;
@@ -138,11 +145,12 @@ width: 100px;
  a
   {
     text-decoration: none;
+    color: white;
     
  }
  
  a:hover{
-    background-color: #E0A33E;
+     color: #E0A33E;
     border-radius: 5px;
 
  }
@@ -201,6 +209,7 @@ width: 100px;
  }
 
  .service{
+    margin-top: 30px;
      margin: auto;
      width: 30%;
      color: black;
@@ -414,6 +423,42 @@ hr {
     margin-left:35% ;
     margin-right: 0px;
 }
+@media screen and (max-width:1750px ) and (min-width:1597px){
+    .Nav
+{
+    position: ;
+    padding-top: 30px;
+     display:flex ;
+     height:50px ;
+     margin: auto;
+     margin-left: 25%;
+     width: 70%;
+     margin-top: px;
+ }
+ #circle {
+    position: absolute;
+    margin-left: 83.7%;
+    margin-top: 1px;
+    background-color: #E0A33E;
+    width: 242px;
+    height: 555px;
+    border-bottom-left-radius: 233px;
+    border-top-left-radius: 233px;
+    animation-name: example;
+}
+ 
+ .menu
+ {
+     padding-right: 20Px;
+    display: flex;
+    padding-bottom: 20px;
+    margin-left: 40%;
+    width: 30%;
+    justify-content: space-between;
+ }
+
+    
+}
   
 }
 @media screen  and (max-width:1597px) {
@@ -447,10 +492,6 @@ hr {
         padding-left: 0px;
         grid-row-gap: 10px;
     }
-    
-    
-    
-    
     
     
 }
@@ -508,7 +549,6 @@ hr {
 
 #mod {
    width:270px ;
-   background-color: red;
 }
 
 }
@@ -550,6 +590,7 @@ hr {
  }
  .formulaire{
      margin-bottom: 5px;
+     text-align: center;
  }
  .mg {
      float: none;
@@ -603,5 +644,74 @@ h2 {
 }
 
  
+    
+}
+@media screen and (max-width:390px) {
+    input {
+        margin-bottom: 15px;
+        height: 37px;
+        background-color: #E5E5E5;
+        border: 2px black solid;
+    }
+    .formulaire {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    button {
+        display: flex;
+        margin-top: 10px;
+        margin-left: 10%;
+        padding: 5px 0px 5px 15px;
+        width: 83px;
+        height: 30px;
+        background-color: #E0A33E;
+    }
+    .bnt{
+        padding-left: 25%;
+
+    }
+    .image{
+        width: 70%;
+        height: 70%;
+    }
+    h2 {
+        display: block;
+        font-size: 80%;
+        font-weight: bold;
+        text-align: justify;
+    }
+    .Name {
+        width: auto;
+        height: 30%;
+        margin-top: 2px;
+    }
+    .main {
+       margin-left: 10%;
+    }
+    .tof{
+        width: 100%;
+    }
+    ul.menu {
+        display: flex; 
+        width: Auto;
+    }
+    #header {
+        margin-left: 5px;
+        width: auto;
+        height: Auto;
+        
+        padding-bottom: 0px;
+    }
+    a{
+        font-size: 70%;
+    }
+    #p{
+        display: none;
+        /*
+        width: auto;
+        border: 1px solid;
+        overflow: auto;
+        height: 40px;*/
+    }
     
 }
