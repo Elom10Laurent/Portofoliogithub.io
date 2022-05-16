@@ -5,6 +5,11 @@
         margin: auto;
         padding: 0px;
     }
+    #header {
+      margin: auto;
+    }
+    
+    
     hr {
         border: none;
         border-bottom: 3px solid  #E0A33E ; /* Ou border-top */
@@ -14,43 +19,51 @@
         margin-left:35% ;
         margin-right: 0px;
     }
-    @media screen and (max-width:1750px ) and (min-width:1597px){
-        .Nav
+    #circle
     {
-        padding-top: 30px;
-         display:flex ;
-         height:50px ;
-         margin: auto;
-         margin-left: 25%;
-         width: 70%;
-         margin-top: px;
-     }
-     #circle {
-        position: absolute;
-        margin-left: 83.7%;
-        margin-top: 1px;
-        background-color: #E0A33E;
-        width: 242px;
-        height: 555px;
-        border-bottom-left-radius: 233px;
-        border-top-left-radius: 233px;
-        animation-name: example;
-    }
-     
-     .menu
-     {
-         padding-right: 20Px;
-        display: flex;
-        padding-bottom: 20px;
-        margin-left: 40%;
-        width: 30%;
-        justify-content: space-between;
-     }
+       display: none;
     
-        
-    }
-      
-    }
+   
+   }
+}
+@media screen and (max-width:1750px ) and (min-width:1597px){
+    .Nav
+{
+    padding-top: 30px;
+     display:flex ;
+     height:50px ;
+     margin: auto;
+     margin-left: 25%;
+     width: 70%;
+     margin-top: px;
+ }
+ #circle {
+    position: absolute;
+    margin-left: 83.7%;
+    margin-top: 1px;
+    background-color: #E0A33E;
+    width: 242px;
+    height: 555px;
+    border-bottom-left-radius: 233px;
+    border-top-left-radius: 233px;
+    animation-name: example;
+}
+#Sect1 {
+ padding-left: auto;
+}
+ 
+ .menu
+ {
+     padding-right: 20Px;
+    display: flex;
+    padding-bottom: 20px;
+    margin-left: 40%;
+    width: 30%;
+    justify-content: space-between;
+ }
+
+    
+}
     @media screen  and (max-width:1597px) {
         .Nav{
             margin: auto;
@@ -71,9 +84,7 @@
             color: black;
         }
         #Sect1 {
-            width: auto;
-            height: auto;
-            margin:auto;
+            padding-left: 10%;
         }
         .tof1-item-img{
             width: 100%;
@@ -85,14 +96,17 @@
         
         
     }
-    @media screen  and (max-width:1100px){
+    @media screen  and (max-width:1200px){
+        #header{
+            margin:0px;
+        }
     .Person
      {
     
         display: block;
         margin: auto;
         margin-top: 10px;
-        width:60%;
+        width:50%;
         height: auto;
      }
      .Pam {
@@ -112,37 +126,38 @@
     
     }
     }
-    @media screen  and (max-width:669px){
-        body{
-            font-size: 100%;
+    
+    @media screen and (max-width:669px){
+        #p
+        {
+            margin: 10px;
+        } 
+        h1 {
+            font-size: xx-large;
+            margin-left: 20%;
         }
-        h1{
-            font-size:xx-large;
-            margin-left: 5%;
-        }
-        .Person
-         {
-        
+        .Person 
+        {
             display: block;
             margin: auto;
             margin-top: 10px;
-            width:100%;
+            width: 90%;
             height: auto;
-         }
+        }
     
          .presentation
-     {
+         {
          display: flex;
          width:auto;
     
-     }
-    
-    #mod {
-       width:270px ;
+         }  
+         #mod {
+            width:270px ;
+         }
     }
     
-    }
-    @media screen and (max-width:596px) {
+   
+    @media screen and (max-width:597px) {
         .contact{
             margin: auto;
             padding: auto;
@@ -165,87 +180,100 @@
             width: 66%;
     
         }
-        .conteneur
-     {
-         display: inline-block;
-         height: 70%;
-         width:70%;
-         padding-bottom: 50%;
-         padding-top: 50%;
-         color: black;
-         padding-bottom:50%;
-         padding-top: 50%;
-    
+        .conteneur {
+            display: inline-block;
+             height: auto; 
+             width: auto;
+             margin-right: 15%;
+            padding-bottom: 50%;
+            padding-top: 50%;
+            color: black;
+            padding-bottom: 20px;
+            padding-top: 20px;
+        }
+        .formulaire
+        {
+            margin-bottom: 5px;
+            text-align: center;
+        }
+        .mg 
+        {
+            float: none;
+           margin-left: 0px;
+           left: 0px;
+           right: 0px;
+           margin-top: 10px;
+           
+        }
+        .Pam 
+        {
+            background-color: #E0A33E;
+            width: 95%;
+            height: auto;
+            margin: auto;
+            border: 2px hsl(286, 72%, 24%) solid;
+            border-radius: 16px;
+            margin-top: 50px;
+        }
+        h2 
+        {
+            display: block;
+            font-size:90%;
+            margin-block-start: 0.83em;
+            margin-block-end: 0.83em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold;
+            text-align: justify;
+        }
+        #header {
+            display: block;
+            width: auto;
+            height: Auto;
+            padding-bottom: 0px;
+        }
+        .Status {
+            width: auto;
+            height: auto;
+            /* text-align: justify; */
+            padding-top: 0px;
+        }
+        .menu{
+            display: flex;
+            padding-bottom: 20px;
+            width: 100%;
         
-     }
-     .formulaire{
-         margin-bottom: 5px;
-         text-align: center;
-     }
-     .mg {
-         float: none;
-        margin-left: 0px;
-        left: 0px;
-        right: 0px;
-        margin-top: 10px;
-        
-    }
-    .Pam {
-        background-color: #E0A33E;
-        width: 95%;
-        height: auto;
-        margin: auto;
-        border: 2px hsl(286, 72%, 24%) solid;
-        border-radius: 16px;
-        margin-top: 50px;
-    }
-    h2 {
-        display: block;
-        font-size:90%;
-        margin-block-start: 0.83em;
-        margin-block-end: 0.83em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-        font-weight: bold;
-        text-align: justify;
-    }
-    #header {
-        display: block;
-        width: auto;
-        height: Auto;
-        padding-bottom: 0px;
-    }
-    .Status {
-        width: auto;
-        height: auto;
-        /* text-align: justify; */
-        padding-top: 0px;
-    }
-    .menu{
-        display: flex;
-        padding-bottom: 20px;
-        width: 100%;
-    
-    }
-    #p
+        }
+        #p
     {
         width:50%;
-        margin-right: 20%;
+        margin: auto;
+    }
+    .presentation {
+        display: flex;
+        margin-left: 20px;
+        width: auto;
     }
     
-     
-        
     }
+     
+    
     @media screen and (max-width:390px) {
         input {
             margin-bottom: 15px;
             height: 37px;
             background-color: #E5E5E5;
             border: 2px black solid;
+            width: 66.6%;
+        }
+        textarea{
+            width:70%;
         }
         .formulaire {
-            width: 100%;
-            margin-bottom: 5px;
+            width: auto;
+            margin: 5px;
+            padding: initial;
+            margin-bottom: 20px;
         }
         button {
             display: flex;
@@ -257,7 +285,7 @@
             background-color: #E0A33E;
         }
         .bnt{
-            padding-left: 25%;
+           padding-left: 15%;
     
         }
         .image{
@@ -271,12 +299,13 @@
             text-align: justify;
         }
         .Name {
+            padding-top: 50%;
             width: auto;
             height: 30%;
             margin-top: 2px;
         }
         .main {
-           margin-left: 10%;
+            margin-left: 50px;
         }
         .tof{
             width: 100%;
@@ -284,13 +313,6 @@
         ul.menu {
             display: flex; 
             width: Auto;
-        }
-        #header {
-            margin-left: 5px;
-            width: auto;
-            height: Auto;
-            
-            padding-bottom: 0px;
         }
         a{
             font-size: 70%;
