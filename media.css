@@ -115,7 +115,7 @@ header #header .Nav .menu
         height: auto;
     }
     #secta #sms .Pam {
-        
+
         width: 70%;
         height: auto;
         margin: auto;
@@ -294,8 +294,8 @@ header #header .Nav .menu
     
         }
         .image{
-            width: 70%;
-            height: 70%;
+            width: auto;
+            height: auto;
         }
         h2 {
             display: block;
