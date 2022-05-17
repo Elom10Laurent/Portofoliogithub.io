@@ -115,7 +115,7 @@ header #header .Nav .menu
         height: auto;
     }
     #secta #sms .Pam {
-        background-color: #E0A33E;
+        
         width: 70%;
         height: auto;
         margin: auto;
@@ -212,8 +212,7 @@ header #header .Nav .menu
         }
         #secta #sms .Pam 
         {
-            background-color: #E0A33E;
-            width: 95%;
+
             height: auto;
             margin: auto;
             border: 2px hsl(286, 72%, 24%) solid;
