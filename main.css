@@ -45,7 +45,7 @@ h4{
 
  }
 
- #header
+ header #header
  {
     margin-left: 10%;
      display: block;
@@ -75,8 +75,8 @@ h4{
     25%  {background-color:yellow; left:0px; top:0px;}
     50%  {background-color:blue; left:0px; top:0px;}
     75%  {background-color:green; left:0px; top:0px;}
-    75%  {background-color:green; left:0px; top:0px;}
-    100% {background-color:red; left:0px; top:0px;}
+    75%  {background-color:hsl(286, 72%, 24%); left:0px; top:0px;}
+    100% {background-color:#E0A33E; left:0px; top:0px;}
   }
 /*
 width: 100px;
@@ -97,14 +97,14 @@ width: 100px;
   100% {background-color:red; left:100%; top:0px;}
 }
 */
- .res
+header #header .Nav .res
  {
      background-color: ed;
      width: 25px;
      height: 25px;
      margin: 10px;
  }
-.Nav
+ header #header .Nav
 {
 
     padding-top: 30px;
@@ -116,7 +116,7 @@ width: 100px;
      margin-top: px;
  }
  
- .menu
+ header #header .Nav .menu
  {
      padding-right: 20Px;
     display: flex;
@@ -125,7 +125,7 @@ width: 100px;
     width: 30%;
     justify-content: space-between;
  }
- hr {
+  hr {
     display: block;
     margin-left: 20px;
     margin-right: 20px;
@@ -154,12 +154,12 @@ width: 100px;
 
  }
 
- .Logo{
+ header #header .Nav .Logo{
      width:40px ;
      height: 30px;
      margin-top: 5px;
  }
- .presentation
+ header #header .Person .presentation
  {
      display: flex;
      width: 450px;
@@ -168,7 +168,7 @@ width: 100px;
  }
  
 
- .Status
+ header #header .Person .Status
  {
 
      width:auto;
@@ -178,14 +178,14 @@ width: 100px;
  }
  
 
- .Name
+ header #header .Person .presentation .Name
  {
      width:auto;
      height: 30%;
      margin-top: 270px;
  }
 
- .Person
+ header #header .Person
  {
     flex-direction:row-reverse;
     display: flex;
@@ -203,12 +203,12 @@ width: 100px;
      display: block;
  }
 
- #sectc{
+ section #sectc{
     background-color:white;
     padding:30px;
  }
 
- .service{
+ #sectc .service{
     margin-top: 30px;
      margin: auto;
      width: 30%;
@@ -216,7 +216,7 @@ width: 100px;
  
  }
  
- #Sect1{
+ #sectc #Sect1{
      width:auto;
      height:auto;
      margin: auto;
@@ -224,7 +224,7 @@ width: 100px;
      
  }
 
- .conteneur
+ #sectc #Sect1 .conteneur
  {
      display: inline-block;
      height: 20em;
@@ -239,7 +239,7 @@ width: 100px;
     
  }
 
- .Rec
+ #sectc #Sect1 .conteneur .Rec
  {
     border: solid 4px #541169 ;
     width:auto;
@@ -268,14 +268,14 @@ width: 100px;
 
 }
 
-.main
+#sectb .main
 {
     
     justify-content: space-between;
     width: 50%;
     margin: auto;
 }
-.lien{
+#sectb .main .lien{
     display: inline-block;
     margin-right: 20px;
     margin: 10px;
@@ -287,7 +287,7 @@ width: 100px;
     color: white;
 }
 
-.portofolio
+#sectb .portofolio
 {
     display: flex;
     grid-column-gap:px ;
@@ -308,14 +308,14 @@ width: 100px;
     height: auto;*/ 
 
 }
-.portofolio > div{
+#sectb .portofolio > div{
     margin: auto;
 }
 
-#sms{
+#secta #sms{
     margin: auto;
 }
-.Pam{
+#secta #sms .Pam{
     background-color:#E0A33E ;
     width: 35%;
     height: 100px;
@@ -325,7 +325,7 @@ width: 100px;
     margin-top: 50px;
 
 }
-.mg{
+#secta #sms .Pam .mg{
     float: left;
     margin-left: 0px ;
     left: 0px;
@@ -335,14 +335,14 @@ width: 100px;
     margin-top: -24px;
 }
 
-.contact{ 
+#secta .contact{ 
     width:auto;
     margin-top: 20px;
 
 
    
 }
-.formulaire{
+#secta .contact .formulaire{
     display: inline-block;
     background-color: bique;
     margin-right: 10px;
