@@ -50,7 +50,7 @@
     border-top-left-radius: 233px;
     animation-name: example;
 }
- #sectc #Sect1 {
+ #sectc #sect-service {
  padding-left: auto;
 }
  
@@ -88,7 +88,7 @@ header #header .Nav .menu
             width: auto;
             color: black;
         }
-        #sectc #Sect1 {
+        #sectc #sect-service {
             padding-left: 10%;
         }
         .tof1-item-img{
@@ -133,7 +133,7 @@ header #header .Nav .menu
     }
     
     @media screen and (max-width:669px){
-        #p
+        #Statu-paragraphe
         {
             margin: 10px;
         } 
@@ -185,7 +185,7 @@ header #header .Nav .menu
             width: 66%;
     
         }
-        #sectc #Sect1 .conteneur {
+        #sectc #sect-service .conteneur {
             display: inline-block;
              height: auto; 
              width: auto;
@@ -248,7 +248,7 @@ header #header .Nav .menu
             width: 100%;
         
         }
-        #p
+        #Statu-paragraphe
         {
             width:50%;
             margin: auto;
@@ -322,7 +322,7 @@ header #header .Nav .menu
         a{
             font-size: 70%;
         }
-        #p{
+        #Statu-paragraphe{
             display: none;
             /*
             width: auto;

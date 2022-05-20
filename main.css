@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2? family= Open+Sans & display=swap');
-@import url('https://fonts.googleapis.com/css2? family= Open+Sans & family= Oxygen & display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Roboto&display=swap');
 body
 {
     display: block;
     text-align: center;
-    font-family: 'Open Sans', sans-serif,'Oxygen';
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: white;
     margin:0px;
     
@@ -13,7 +12,9 @@ body
 
   h1
   {
-      font-size: 320%;
+      margin: 16px 17px ;
+      margin-left: 0px;
+      font-size:6em;
   }
 
   h2 
@@ -37,20 +38,25 @@ h4{
 .Ma-col{
     font-size: 1.5rem;
 }
+#Statu-paragraphe{
+    padding: 0px;
+    margin-left:100px;
+    width:380px ;
+    height: 100px;
+}
 
  header
  {
-     display: flex;
-    background-color: black;
-    
-
+      display: flex;
+      background-color: black;
+      height:auto ;
  }
 
  header #header
  {
-    margin-left: 10%;
+
      display: block;
-     width: auto;
+     width: 90%;
      height:Auto;
      padding-bottom: 0px;
 
@@ -58,16 +64,15 @@ h4{
 
  #circle
  {
-     position: absolute;
-    margin-left: 86.6%;
-    margin-top: 1px;
-    background-color: #E0A33E;
-    width: 300px;
-    height: 606px;
-    border-bottom-left-radius: 300px;
-    border-top-left-radius: 300px;
-    animation-name: example;
-    animation-duration: 4s;
+      position: absolute;
+      margin-left: 85.7%;
+      background-color: #E0A33E;
+      width: 320px;
+      height: 649px;
+      border-bottom-left-radius:  324px;
+      border-top-left-radius:  324px;
+      animation-name: example;
+      animation-duration: 4s;
  
 
 }
@@ -163,20 +168,25 @@ header #header .Nav .res
  header #header .Person .presentation
  {
      display: flex;
-     width: 450px;
-     margin-right: 20px;
+     width:30em;
+     height: auto;
+     margin-left:0px;
 
  }
  
 
  header #header .Person .Status
  {
-
-     width:auto;
+     background-color:ed;
+     width:45em;
      height: auto;
      text-align: justify;
      padding-top: 0px;
  }
+  .image{
+      width: 373px;
+      height:440px ;
+  }
  
 
  header #header .Person .presentation .Name
@@ -188,13 +198,13 @@ header #header .Nav .res
 
  header #header .Person
  {
-    flex-direction:row-reverse;
+    
     display: flex;
-    margin-left: 0px;
-    margin-left:25%;
+    flex-direction:row-reverse;
     margin-top:130px;
-    width:60%;
+    width:75em;
     height: auto;
+    margin-left: 25%;
     padding-right:0px ;
 
  }
@@ -204,7 +214,7 @@ header #header .Nav .res
      display: block;
  }
 
- section #sectc{
+  #sectc{
     background-color:white;
     padding:30px;
  }
@@ -217,20 +227,22 @@ header #header .Nav .res
  
  }
  
- #sectc #Sect1{
+ #sectc #sect-service{
      width:auto;
      height:auto;
      margin: auto;
+     margin-left: 80px;
      
      
  }
 
- #sectc #Sect1 .conteneur
+ #sectc #sect-service .conteneur
  {
      display: inline-block;
-     height: 20em;
-     width:16em;
-     margin-right: 50px;
+     justify-content: space-between;
+     height: 24em;
+     width: 17em;
+     margin-right: 80px;
      padding-bottom: 50px;
      padding-top: 20px;
      color: black;
@@ -240,7 +252,7 @@ header #header .Nav .res
     
  }
 
- #sectc #Sect1 .conteneur .Rec
+ #sectc #sect-service .conteneur .rec
  {
     border: solid 4px #541169 ;
     width:auto;
@@ -249,17 +261,31 @@ header #header .Nav .res
     border-radius: 5px;
     color: black; 
 }
+.rec-img{
+    float: inline-end;
+    margin-top:30px;
+    width: 90px;
+    height: auto;
+}
+.Middle{
+    margin-top:40px;;
+    width: 90px;
+    height: 60px;
 
-/*.text{
-    text-align: center;
-     display:inline ;
-     background-color:red;
-     width: 38%;
-     justify-content: space-between;
-     margin: auto;
-     color: black;
+}
+.rec-img-text{
+    font-size:30px;
+}
+.decompt{
+     color: #E0A33E;
+    display: block;
+   margin-bottom: 0px ;
+}
 
-}*/
+.text p{
+font-size:30px ;
+   
+}
 
 #sectb
 {
