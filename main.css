@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2? family= Open+Sans & family= Oxygen & display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Roboto&display=swap');
 body
 {
     display: block;
     text-align: center;
-    font-family: 'Open Sans', sans-serif,'Oxygen';
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: white;
     margin:0px;
     
@@ -39,7 +39,6 @@ h4{
     font-size: 1.5rem;
 }
 #Statu-paragraphe{
-    background-color: royalblue;
     padding: 0px;
     margin-left:100px;
     width:380px ;
@@ -48,14 +47,9 @@ h4{
 
  header
  {
-     display: flex;
-    background-color: black;
-    height:auto ;
-    max-width: 2250px;
-
-    
-    
-
+      display: flex;
+      background-color: black;
+      height:auto ;
  }
 
  header #header
@@ -71,9 +65,9 @@ h4{
  #circle
  {
       position: absolute;
-      margin-left: 85.5%;
+      margin-left: 85.7%;
       background-color: #E0A33E;
-      width: 324px;
+      width: 320px;
       height: 649px;
       border-bottom-left-radius:  324px;
       border-top-left-radius:  324px;
@@ -173,7 +167,6 @@ header #header .Nav .res
  }
  header #header .Person .presentation
  {
-     background-color: #541169;
      display: flex;
      width:30em;
      height: auto;
@@ -235,10 +228,10 @@ header #header .Nav .res
  }
  
  #sectc #sect-service{
-     background-color: red;
-     width:100%;
+     width:auto;
      height:auto;
      margin: auto;
+     margin-left: 80px;
      
      
  }
@@ -247,7 +240,7 @@ header #header .Nav .res
  {
      display: inline-block;
      justify-content: space-between;
-     height: 25em;
+     height: 24em;
      width: 17em;
      margin-right: 80px;
      padding-bottom: 50px;
@@ -277,7 +270,7 @@ header #header .Nav .res
 .Middle{
     margin-top:40px;;
     width: 90px;
-    height: 70px;
+    height: 60px;
 
 }
 .rec-img-text{
