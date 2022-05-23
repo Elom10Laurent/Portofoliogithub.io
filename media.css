@@ -1,3 +1,20 @@
+/*@media screen and (max-width:2560px){
+    #circle
+ {
+      position: absolute;
+      margin-left: 87.5%;
+      background-color: #E0A33E;
+      width: 320px;
+      height: 644px;
+      border-bottom-left-radius:  324px;
+      border-top-left-radius:  324px;
+      animation-name: example;
+      animation-duration: 4s;
+ 
+
+}
+
+}*/
 @media screen and (max-width:1750px){
     header #header .Nav .menu{
         display: flex;
@@ -180,11 +197,22 @@ header #header .Nav .menu
     
     }
     }
-    @media screen  and (max-width:1200px){
+    @media screen  and (max-width:873px){
         h2{
             display: none;
         }
+        .tof1-item-img {
+            width: 47%;
+            margin-bottom: 10px;
+        }
+        h3 {
+            font-size: 1.5em;
+            margin: 0px;
+            color: #3A90DB;
+            margin-bottom: 5px;
+        }
     }
+
     
     @media screen and (max-width:669px){
         #Statu-paragraphe
@@ -192,10 +220,14 @@ header #header .Nav .menu
             margin: 10px;
         } 
         h1 {
-            font-size: xx-large;
+            font-size: large;
             margin-top: 0px;
             margin-left: 20%;
         }
+        .Ma-col {
+            font-size: smaller;
+        }
+        
         .image{
             width: 80%;
             height: auto;
@@ -230,6 +262,12 @@ header #header .Nav .menu
             width:400px; 
             height:460px;
         }
+        .formulaire-contact h4 {
+            font-size: 1.5em;
+            margin: 10% auto;
+            margin-top: 0px;
+            height: 50px;
+        }
     }
     
    
@@ -261,7 +299,9 @@ header #header .Nav .menu
         }
         #sectc #sect-service .conteneur {
             display: inline-block;
-             margin-right: 15%;
+            width:85% ;
+            height: 100%;
+            margin-right: 15%;
             padding-bottom: 50%;
             padding-top: 50%;
             color: black;
@@ -342,11 +382,6 @@ header #header .Nav .menu
             height:0px ;
             border-width: 1px;
         }
-    
-    }
-     
-    
-    @media screen and (max-width:597px) {
         input {
             margin-bottom: 15px;
             height: 37px;
@@ -377,7 +412,7 @@ header #header .Nav .menu
     
         }
         .image{
-            width: 275px;
+            width: 80%;
             height: auto;
         }
        
