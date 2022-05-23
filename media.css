@@ -2,7 +2,6 @@
     header #header .Nav .menu{
         display: flex;
         width: 70%;
-        margin: auto;
         padding: 0px;
     }
     header #header{     
@@ -12,8 +11,10 @@
     
     hr
     {
-        border: none;
-        border-bottom: 3px solid  #E0A33E ; /* Ou border-top */
+        border: one;
+        border-bottom: 3px solid  #E0A33E ; 
+        display: block;
+       
     }
     
     header #header .Nav
@@ -27,6 +28,8 @@
     
    
    }
+  
+   
 }
 @media screen and (max-width:1750px ) and (min-width:1597px){
     header #header .Nav
@@ -72,9 +75,9 @@ header #header .Nav .menu
             margin: auto;
             display: inline-block;
         }
-        header #header .Nav .menu{ 
-            
-            padding-bottom: 5px ;
+        header #header .Nav ul.menu{ 
+            margin: auto;
+            width: 500px;
               
          }
         header #header .Person
@@ -85,33 +88,50 @@ header #header .Nav .menu
          #sectc .service 
         {
             margin: auto;
-            width: auto;
             color: black;
         }
+        
         #sectc #sect-service {
-            padding-left: 10%;
+            margin: auto;
+            margin-left: 7%;
+        }
+        .decompt-text {
+            margin-top: 0px;
+            font-size: 1.5em;
+        }
+        #sectb .service .porto p {
+            margin-top: 10px;
+            font-size: 1.5em;
         }
         .tof1-item-img{
-            width: 100%;
+           width: auto;
         }
         #sectb .portofolio{
             padding-left: 0px;
-            grid-row-gap: 10px;
+            width: 92%;
+        }
+        hr {
+            display: block;
+            margin-left: 20px;
+            margin-right: 20px;
+            overflow: hidden;
+            border-style: inset;
+            height: 0px; 
+            border-width: 1px;
         }
         
         
     }
     @media screen  and (max-width:1200px){
         header #header{
+            width:100%;
             margin:0px;
         }
     header #header .Person
     {
-    
-        display: block;
-        margin: auto;
+        width: 95%;
         margin-top: 10px;
-        width:50%;
+        margin:10px;
         height: auto;
     }
     #secta #sms .Pam {
@@ -123,6 +143,35 @@ header #header .Nav .menu
         border-radius: 16px;
         margin-top: 50px;
     }
+    .tof1-item-img {
+        width: 95%;
+        margin-bottom: 10px;
+    }
+    header #header .Person .Status {
+
+        margin-left: 0px;
+        height: auto;
+        text-align: justify;
+        padding-top: 0px;
+    }
+    h1 {
+        margin: 60px 15px 17px;
+        margin-left: 0px;
+        font-size: 3em;
+    }
+    h2 {
+        display: block;
+        font-size: 2.5em;
+        margin: 0 auto;
+        font-weight: bold;
+        text-align: justify;
+    }
+    #Statu-paragraphe {
+        padding: 0px;
+        margin: 0px;
+        width: 380px;
+        height: 100px;
+    }
     
     #circle
     {
@@ -130,6 +179,11 @@ header #header .Nav .menu
      
     
     }
+    }
+    @media screen  and (max-width:1200px){
+        h2{
+            display: none;
+        }
     }
     
     @media screen and (max-width:669px){
@@ -139,7 +193,12 @@ header #header .Nav .menu
         } 
         h1 {
             font-size: xx-large;
+            margin-top: 0px;
             margin-left: 20%;
+        }
+        .image{
+            width: 80%;
+            height: auto;
         }
         header #header .Person
         {
@@ -158,11 +217,26 @@ header #header .Nav .menu
         }  
         #mod {
             width:270px ;
-         }
+        }
+        #maps{
+            display: inline-block;
+           margin: auto;
+            width: 400px;
+            height: 414px;
+            margin-bottom: 0px;
+           
+        }
+        iframe{
+            width:400px; 
+            height:460px;
+        }
     }
     
    
     @media screen and (max-width:597px) {
+        header #header .Nav ul.menu {
+            width:81%;
+        }
         #secta  .contact{
             margin: auto;
             padding: auto;
@@ -187,8 +261,6 @@ header #header .Nav .menu
         }
         #sectc #sect-service .conteneur {
             display: inline-block;
-             height: auto; 
-             width: auto;
              margin-right: 15%;
             padding-bottom: 50%;
             padding-top: 50%;
@@ -232,7 +304,7 @@ header #header .Nav .menu
         }
         header #header {
             display: block;
-            width: auto;
+            width: 100%;
             height: Auto;
             padding-bottom: 0px;
         }
@@ -259,11 +331,22 @@ header #header .Nav .menu
             margin-left: 20px;
             width: auto;
         }
+        hr
+        {
+            border: none;
+            border-bottom: 3px solid  #E0A33E ; 
+            display: block;
+            margin: auto;
+            overflow: hidden;
+            border-style: inset;
+            height:0px ;
+            border-width: 1px;
+        }
     
     }
      
     
-    @media screen and (max-width:390px) {
+    @media screen and (max-width:597px) {
         input {
             margin-bottom: 15px;
             height: 37px;
@@ -294,9 +377,10 @@ header #header .Nav .menu
     
         }
         .image{
-            width: auto;
+            width: 275px;
             height: auto;
         }
+       
         h2 {
             display: block;
             font-size: 80%;
@@ -309,26 +393,24 @@ header #header .Nav .menu
             height: 30%;
             margin-top: 2px;
         }
-        .main {
-            margin-left: 50px;
+        #sectb .main {
+            font-size: 20px;
+            justify-content: space-between;
+            width: 85%;
+            margin-bottom: 20px;
         }
         .tof{
             width: 100%;
         }
         header #header .Nav ul.menu{
             display: flex; 
-            width: Auto;
         }
         a{
             font-size: 70%;
         }
-        #Statu-paragraphe{
+        #Statu-paragraphe, .decompt-text,  #sectb .service .porto p{
             display: none;
-            /*
-            width: auto;
-            border: 1px solid;
-            overflow: auto;
-            height: 40px;*/
+            
         }
         
     }
