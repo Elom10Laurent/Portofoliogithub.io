@@ -65,11 +65,12 @@ h4{
 
  #circle
  {
-      position: absolute;
-      margin-left: 85.7%;
+      position: relative;
+      margin-left:50% ;
       background-color: #E0A33E;
+      margin-left: 0px;
       width: 320px;
-      height: 649px;
+      height: 644px;
       border-bottom-left-radius:  324px;
       border-top-left-radius:  324px;
       animation-name: example;
