@@ -87,32 +87,13 @@ h4{
     75%  {background-color:hsl(286, 72%, 24%); left:0px; top:0px;}
     100% {background-color:#E0A33E; left:0px; top:0px;}
   }
-/*
-width: 100px;
-  height: 100px;
-  left: 100%;
-  background-color: red;
-  position: relative;
-  
-  border-radius:50%;
-}
 
-@keyframes example {
-  0% {background-color:red; rigth:0px; top:0px;}
-  25%  {background-color:yellow; left:20px; top:0px;}
-  50%  {background-color:blue; left:300px; top:500px;}
-  75%  {background-color:green; left:0px; top:200px;}
-  75%  {background-color:green; left:0px; top:200px;}
-  100% {background-color:red; left:100%; top:0px;}
-}
-*/
 header #header .Nav .res
  {
      width: 25px;
      height: 25px;
      margin:17px;
-     background-color: red
-     margin-left:0px ;
+    
      margin-right: 10px;
  }
  header #header .Nav
@@ -224,7 +205,7 @@ header #header .Nav .res
  }
 
   #sectc{
-    background-color:white;
+    background-color:rgb(215, 212, 212);
     padding:10px;
  }
 
@@ -346,7 +327,7 @@ header #header .Nav .res
     grid-column-gap:px ;
     flex-wrap: wrap;
     margin: auto;
-    width: 52%;
+    width: 55%;
     /*background-color: #541169;
     display: flex;
     padding-top: 30px;
@@ -362,13 +343,16 @@ header #header .Nav .res
     margin: auto;
 }
 #secta{
-    background-color: #ffffff;
+    width: auto;
+    height: auto;
+    padding: 50px 0px 20px 0px;
+    background-color:rgb(215, 212, 212);;
 }
 
 #secta #sms{
     width: auto;
     height: auto;
-    margin: auto;
+    
 }
 
 
@@ -381,7 +365,7 @@ header #header .Nav .res
     padding: auto;
     border: 2px hsl(286, 72%, 24%) solid;
     border-radius:16px;
-    margin-top: 50px;
+    margin-top: px;
 
 }
 
@@ -491,7 +475,6 @@ footer{
     background-color:#46454D ;
     padding-top:5px;
     padding-bottom: 10px;
-    margin-top: 20px;
     margin-bottom: 0px;
     font-size: 20px;
     width: auto;
